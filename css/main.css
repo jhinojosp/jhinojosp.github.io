@@ -37,11 +37,11 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: rgb(54, 55, 56);
+    color: rgb(55, 68, 110);
 }
 h1 {
     font-size: 3em;
-    font: "opensans-bold", sans-serif;
+    font: "opensans-bold";
 }
 p {
     font-size: 1.5em;
