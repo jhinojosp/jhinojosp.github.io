@@ -1,0 +1,53 @@
+/* Importing fonts from css font files */
+
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* */
+
+
+/* Begginning of main.css*/
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font: 'opensans-regular', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(24, 116, 108);
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font: "opensans-bold", 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: rgb(0, 0, 0);
+}
+footer {
+    border-top: 1px solid #000000;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}

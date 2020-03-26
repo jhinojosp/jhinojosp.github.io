@@ -1,4 +1,3 @@
 name: Juan H.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: holo-alfa
