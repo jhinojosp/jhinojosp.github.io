@@ -23,7 +23,8 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font: 'opensans-bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     padding: 0px;
     list-style: none;
 }
@@ -41,7 +42,10 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font: "opensans-bold";
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font: 18px/1.9em 'librebaskerville-regular', serif;
 }
 p {
     font-size: 1.5em;
