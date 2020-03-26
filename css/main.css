@@ -11,10 +11,10 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
-    height: 142px; /* .push must be the same height as .footer */
+    height: 50px; /* .push must be the same height as .footer */
 }
 
 /* Begginning of main.css*/
@@ -23,13 +23,13 @@ body {
     width: 70%;
 }
 nav {
-    font: 'opensans-regular', 'Sans';
+    font: 'opensans-regular', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 ul, footer ul {
-    font: 'opensans-regular', 'Sans-Serif';
+    font: 'opensans-regular', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -48,7 +48,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font: "opensans-bold", 'Sans';
+    font: "opensans-bold", sans;
 }
 p {
     font-size: 1.5em;
