@@ -22,17 +22,10 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav {
-    font: 'opensans-regular', sans-serif;
+nav ul, footer ul {
+    font: 'opensans-bold', sans-serif;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
-}
-ul, footer ul {
-    font: 'opensans-regular', sans-serif;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -44,11 +37,11 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: lightslategrey;
+    color: rgb(54, 55, 56);
 }
 h1 {
     font-size: 3em;
-    font: "opensans-bold", sans;
+    font: "opensans-bold", sans-serif;
 }
 p {
     font-size: 1.5em;
