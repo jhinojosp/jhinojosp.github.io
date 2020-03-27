@@ -89,3 +89,9 @@ table{
     list-style: none;
 }
 
+.right-span{
+    float: right;
+}
+.left-span{
+    float: left;
+}

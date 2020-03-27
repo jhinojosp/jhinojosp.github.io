@@ -7,7 +7,7 @@ title: Blog
 
 	  {% for post in site.posts %}
  
-	  <li><article><span style="float: left"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</span> <span style="float: right"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-	    <!-- <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
+	  	<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span style="float: right"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+		<!-- <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> - {{ post.date | date_to_string }}</li> -->
 	  {% endfor %}
 	</ul>
