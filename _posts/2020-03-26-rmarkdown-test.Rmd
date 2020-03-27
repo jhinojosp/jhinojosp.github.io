@@ -22,6 +22,10 @@ Así es como NO se grafican funciones de densidad de probabilidad, hay que usar 
 ```{r}
 plot(rnorm(n=1000))
 ```
+Así si
+```{r}
+plot(density(rnorm(n=1000)))
+```
 
 
 
