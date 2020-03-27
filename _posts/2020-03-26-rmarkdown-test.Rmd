@@ -1,0 +1,27 @@
+---
+title: "Ejercicio 8 Tarea Modelos ARIMA"
+author: "Juan Carlos Hinojosa Peredo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      message = FALSE, 
+                      warning = F,
+                      fig.align = 'center')
+```
+
+Primero hay que cargar todos los paquetes necesarios.
+
+```{r}
+library(quantmod) #Funcion getSymbols para descargar datos de yahoo finance
+library(zoo) #Funciones para series de timepo
+library(forecast) #Funciones para predicción de modelos 
+library(aTSA) #Funciones Augmentes Dickey-Fuller y Phillips Perron
+```
+
+
+
+
+
+
