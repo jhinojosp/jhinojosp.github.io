@@ -18,9 +18,9 @@ library(zoo) #Funciones para series de timepo
 library(forecast) #Funciones para predicción de modelos 
 library(aTSA) #Funciones Augmentes Dickey-Fuller y Phillips Perron
 ```
-
+Así es como NO se grafican funciones de densidad de probabilidad, hay que usar la función density().
 ```{r}
-plot(density(rnorm(n=10000)))
+plot(rnorm(n=1000))
 ```
 
 
