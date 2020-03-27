@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Ejercicio 8 Tarea Modelos ARIMA"
+---
+
+
+```{r}
+x <- 5+5
+x
+```

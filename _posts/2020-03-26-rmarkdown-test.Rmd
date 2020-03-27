@@ -1,7 +1,6 @@
 ---
+layout: post
 title: "Ejercicio 8 Tarea Modelos ARIMA"
-author: "Juan Carlos Hinojosa Peredo"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
