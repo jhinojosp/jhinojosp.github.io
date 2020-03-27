@@ -21,6 +21,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+    text-align: center;
+}
+ul, table{
+    padding: 0;
 }
 nav ul, footer ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +35,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    text-align: ;
 }
 a {
     text-decoration: none;
@@ -42,15 +47,24 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'opensans-bold', sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: 'opensans-bold', sans-serif;
+    text-align: center;
 }
 h3 {
-    font: 18px/1.9em 'librebaskerville-regular', serif;
+    font: 18px/1em 'librebaskerville-regular', serif;
+    text-align: center;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: rgb(0, 0, 0);
+}
+header{
+    text-align: center;
 }
 footer {
     border-top: 1px solid #000000;
@@ -63,5 +77,14 @@ ul.posts {
 }
 
 ul.posts li {
+    list-style: none;
+}
+table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.document-list{
+    font: 18px/1.3em 'librebaskerville-regular', serif;
     list-style: none;
 }
