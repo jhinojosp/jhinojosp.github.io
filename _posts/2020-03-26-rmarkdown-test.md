@@ -20,7 +20,7 @@ library(aTSA) #Funciones Augmentes Dickey-Fuller y Phillips Perron
 plot(density(rnorm(n=10000)))
 {% endhighlight %}
 
-<img src="/figure/_posts/2020-03-26-rmarkdown-test/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+<img src="/figure/./_posts/2020-03-26-rmarkdown-test/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 
 
