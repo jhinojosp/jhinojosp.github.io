@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Este es el título de una entrada de Prueba"
+title: "Este es el titulo de una entrada de Prueba"
 ---
 
 ## Este es un subtítulo de Markdown
