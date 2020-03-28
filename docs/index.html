@@ -3,21 +3,13 @@ layout: default
 title: Documentos
 ---
 	<h1> {{ page.title }} </h1>
-
-	<!-- <ul class="posts">
-		<li>Curriculum Vitae <span class="right-span"><a href="/documents/cv.pdf">☝︎</a> <a href="/documents/cv.pdf" download="JCHP_CV.pdf"> <i class="fa fa-download"></i></span></li>
-			<li>Trabajo Primer Parcial MEF <span class="right-span"><a href="/documents/cv.pdf">☝︎</a> <a href="/documents/cv.pdf" download="JCHP_CV.pdf"> <i class="fa fa-download"></i></span></li>
-	</ul> -->
-
+	
+	{% directory path: /documents exclude: private %}
 	<table class="document-list">
 		<tr>
-			<td>Curriculum Vitae</td>
-			<td class="right-span"><a href="/documents/cv.pdf">☝︎</a> <a href="/documents/cv.pdf" download="JCHP_CV.pdf"> <i class="fa fa-download"></i></td>
+			<td>{{ file.slug | replace:'-',' ' }} (.{{ file.name | split:'.' | last }})</td>
+			<td class="right-span"><a href="{{ file.url }}">☝︎</a> <a href="{{ file.url }}" download="JC-{{file.name}}"> <i class="fa fa-download"></i></td>
 		</tr>
-		<tr>
-			<td>Trabajo Primer Parcial MEF</td>
-			<td class="right-span"><a href="/documents/Trabajo-Primer-Parcial-MEF.html">☝︎</a> <a href="/documents/Trabajo-Primer-Parcial-MEF.html" download="Trabajo-Primer-Parcial-MEF"> <i class="fa fa-download"></i></td>
-		</tr>
-
-
 	</table>
+	{% enddirectory %}
+

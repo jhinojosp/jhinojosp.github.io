@@ -3,3 +3,7 @@ permalink: /blog/:year/:month/:day/:title
 
 markdown: kramdown
 exclude: ['*.Rmd']
+
+collections:
+  - docss
+
