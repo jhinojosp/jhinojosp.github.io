@@ -23,8 +23,10 @@ body {
     width: 70%;
     text-align: center;
 }
-ul, table{
+ul {
+    font-size: 1.5em;
     padding: 0;
+    list-style: square;
 }
 nav ul, footer ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -72,20 +74,23 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 20px auto 40px;
+    width: 70%; 
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+    text-align: left;
 }
 table{
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
 }
 .document-list{
-    font: 18px/1.3em 'librebaskerville-regular', serif;
+    font:'librebaskerville-regular', serif;
     list-style: none;
 }
 
@@ -94,4 +99,8 @@ table{
 }
 .left-span{
     float: left;
+}
+
+td{
+    font-size: 1.5em;
 }
