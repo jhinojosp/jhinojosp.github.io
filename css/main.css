@@ -74,7 +74,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px;
-    width: 70%; 
+    width: 100%; 
     font-size: 1.5em;
 }
 
@@ -86,7 +86,7 @@ table{
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
 }
 .document-list{
     font:'librebaskerville-regular', serif;
