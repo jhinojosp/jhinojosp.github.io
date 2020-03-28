@@ -2,7 +2,7 @@
 layout: default
 title: Documentos
 ---
-	<h1> {{ page.title }} </h1>
+	<!-- <h1> {{ page.title }} </h1>
 	
 	{% directory path: /documents exclude: private %}
 	<table class="document-list">
@@ -11,5 +11,16 @@ title: Documentos
 			<td class="right-span"><a href="{{ file.url }}">☝︎</a> <a href="{{ file.url }}" download="JC-{{file.name}}"> <i class="fa fa-download"></i></td>
 		</tr>
 	</table>
-	{% enddirectory %}
+	{% enddirectory %} -->
+
+	{% for doc in site.static_files %}
+		{% if doc.path contains 'assets/documents' %}
+			<table class="document-list">
+				<tr>
+					<td>{{ doc.basename | replace:'-',' ' }} ({{ doc.extname }})</td>
+					<td class="right-span"><a href="{{ doc.path }}">☝︎</a> <a href="{{ doc.path }}" download="JC-{{doc.name}}"> <i class="fa fa-download"></i></td>
+				</tr>
+			</table>
+		{% endif %}
+  	{% endfor %}
 
