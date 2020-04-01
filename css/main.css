@@ -38,14 +38,39 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+}
+a.nav {
+    padding-bottom: none;
+    border-bottom: none;
+}
+
+a.icon {
+    padding-bottom: none;
+    border-bottom: none;
 }
 a:hover {
     text-decoration: none;
-    color: rgb(55, 68, 110);
+    color: black;
+    border-bottom: 0px;
 }
+
+a.nav:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 0px;
+}
+a.icon:hover{
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid;
+}
+
 h1 {
     font-size: 3em;
     font-family: 'opensans-bold', sans-serif;
