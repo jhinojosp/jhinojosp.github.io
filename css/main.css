@@ -68,11 +68,10 @@ a.nav:hover{
 a.icon:hover{
     text-decoration: none;
     color: black;
-    border-top: 1px solid;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'opensans-bold', sans-serif;
     text-align: center;
 }
@@ -88,6 +87,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: rgb(0, 0, 0);
+    font: 'librebaskerville-regular', serif;
 }
 header{
     text-align: center;

@@ -9,7 +9,7 @@ title: Documentos
 			<table class="document-list">
 				<tr>
 					<td>{{ doc.basename | replace:'-',' ' }} ({{ doc.extname }})</td>
-					<td class="right-span"><a href="{{ doc.path }}">☝︎</a> <a href="{{ doc.path }}" download="JC-{{doc.name}}"> <i class="fa fa-download"></i></td>
+					<td class="right-span"><a class="icon" href="{{ doc.path }}">☝︎</a> <a class="icon" href="{{ doc.path }}" download="JC-{{doc.name}}"> <i class="fa fa-download"></i></td>
 				</tr>
 			</table>
 		{% endif %}
