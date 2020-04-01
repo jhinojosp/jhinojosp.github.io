@@ -1,6 +1,7 @@
 name: Juan H.
 permalink: /blog/:year/:month/:day/:title
 
+# Build settings
 markdown: kramdown
 exclude: ['*.Rmd']
 
