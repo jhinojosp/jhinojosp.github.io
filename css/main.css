@@ -5,7 +5,6 @@
 @import url("font-awesome/css/font-awesome.min.css");
 
 /* */
-
 /* Content wraper and footnote pushed to the buttom*/
 .wrapper {
     min-height: 100%;
@@ -23,21 +22,44 @@ body {
     width: 70%;
     text-align: center;
 }
+section {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+div.inicio {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
 ul {
     font-size: 1.5em;
     padding: 0;
     list-style: square;
 }
-nav ul, footer ul {
-    font-family: Arial, Helvetica, sans-serif;
+#nav-wrap {
+    font-family: "opensans-bold", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+ul.nav {
+    list-style: none;
+    display: inline;
+}
+
+footer ul {
+    font: "opensans-bold", sans-serif;
     text-transform: uppercase;
     padding: 0px;
     list-style: none;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
+} 
 
 a {
     text-decoration: none;
@@ -69,8 +91,18 @@ a.icon:hover{
     text-decoration: none;
     color: black;
 }
+h1, h2, h3, h4, h5, h6 {
+    color: #313131;
+    font-family: 'opensans-bold', sans-serif;
+    font-weight: normal;
+}
+h4 {
+    font: 15px/1em 'librebaskerville-regular', serif;
+    text-align: center;
+}
 
-h1 {
+
+/* h1 {
     font-size: 2.5em;
     font-family: 'opensans-bold', sans-serif;
     text-align: center;
@@ -78,13 +110,21 @@ h1 {
 h2 {
     font-family: 'opensans-bold', sans-serif;
     text-align: center;
-}
-h3 {
+}*/
+/* h3 {
     font: 18px/1em 'librebaskerville-regular', serif;
     text-align: center;
+} */
+
+h3.head {
+    color: #313131;
+    font-family: 'opensans-bold', sans-serif;
+    text-align: center;
 }
+
+
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: rgb(0, 0, 0);
     font: 'librebaskerville-regular', serif;
@@ -122,9 +162,6 @@ table.document-list{
     float: left;
 }
 
-td{
-    font-size: 1.5em;
-}
 
 /* --- Code blocks --- */
 
